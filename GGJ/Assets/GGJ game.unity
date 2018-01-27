@@ -602,26 +602,6 @@ MonoBehaviour:
 GameObject:
   m_PrefabParentObject: {fileID: 100012, guid: dc9979f45903aaf46aa182a126756143, type: 3}
   m_PrefabInternal: {fileID: 1717351132}
---- !u!114 &296376222
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 296376221}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a636b9f3f22ecc5469f6dab78fbc667e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  horizontalspeed: 0
-  boundary:
-    xMin: 0
-    xMax: 0
-    zMin: 0
-    zMax: 0
-  rb: {fileID: 0}
-  rv: {fileID: 0}
-  tilt: 0
 --- !u!136 &296376224
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -650,6 +630,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &296376226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 296376221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a636b9f3f22ecc5469f6dab78fbc667e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 75
+  tilt: 3
+  boundary:
+    xMin: -6
+    xMax: 6
+    zMin: -6
+    zMax: 6
+  rb: {fileID: 296376225}
 --- !u!1 &312175286
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,34 +673,33 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 312175286}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a636b9f3f22ecc5469f6dab78fbc667e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalspeed: 4
-  boundary:
-    xMin: 0
-    xMax: 0
-    zMin: 5
-    zMax: 85
-  rb: {fileID: 312175290}
-  rv: {fileID: 296376225}
+  speed: 5
   tilt: 3
+  boundary:
+    xMin: -6
+    xMax: 6
+    zMin: -6
+    zMax: 6
+  rb: {fileID: 312175290}
 --- !u!4 &312175288
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400006, guid: faeec33f87364a744acd41516dada550, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 312175286}
-  m_LocalRotation: {x: 0.21263108, y: 0.67437977, z: -0.21263108, w: 0.67437977}
+  m_LocalRotation: {x: 0.3535534, y: 0.61237246, z: -0.3535534, w: 0.61237246}
   m_LocalPosition: {x: 0, y: 0.5, z: 45000}
   m_LocalScale: {x: 5000, y: 50, z: 50}
   m_Children:
   - {fileID: 1678112803}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 35, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 90, z: 0}
 --- !u!114 &312175289
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1187,15 +1185,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a636b9f3f22ecc5469f6dab78fbc667e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalspeed: 10
+  speed: 0
+  tilt: 0
   boundary:
     xMin: 0
     xMax: 0
     zMin: 0
     zMax: 0
   rb: {fileID: 0}
-  rv: {fileID: 0}
-  tilt: 0
 --- !u!1 &872257010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,15 +1951,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a636b9f3f22ecc5469f6dab78fbc667e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horizontalspeed: 10
+  speed: 0
+  tilt: 0
   boundary:
     xMin: 0
     xMax: 0
     zMin: 0
     zMax: 0
   rb: {fileID: 0}
-  rv: {fileID: 0}
-  tilt: 0
 --- !u!1 &1276503731
 GameObject:
   m_ObjectHideFlags: 0

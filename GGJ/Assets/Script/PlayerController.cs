@@ -9,26 +9,31 @@ public class Boundary
 
 public class PlayerController : MonoBehaviour
 {
-    public float horizontalspeed;
+    public float speed;
+    public float tilt;
     public Boundary boundary;
     public Rigidbody rb;
-    public Rigidbody rv;
-    public float tilt;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        rv = GetComponent<Rigidbody>();
-    }
-    void Update()
-    {
-        float h = horizontalspeed * Input.GetAxis("Horizontal");
-        
-        Vector3 currentRotation = transform.localRotation.eulerAngles;
-        currentRotation.x = Mathf.Clamp(currentRotation.x, boundary.zMin, boundary.zMax);
-        transform.localRotation = Quaternion.Euler(currentRotation);
-        transform.Rotate(h, 0, 0);
-        rv.rotation = Quaternion.Euler(0.0f, 0.0f, rv.velocity.x * -tilt);
     }
 
+    void FixedUpdate()
+    {
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        rb.velocity = movement * speed;
+
+        rb.position = new Vector3
+        (
+            Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax),
+            0.0f,
+            Mathf.Clamp(rb.position.z, boundary.zMin, boundary.zMax)
+        );
+
+        rb.rotation = Quaternion.Euler(0.0f, 0.0f, rb.velocity.x * -tilt);
+    }
 }
