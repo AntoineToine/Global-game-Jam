@@ -28,11 +28,11 @@ public class PlayerController : MonoBehaviour
 
         rb.position = new Vector3
         (
-            Mathf.Clamp(rb.position.x, boundary.xMin, boundary.xMax),
+            Mathf.Clamp(rb.rotation.x, boundary.xMin, boundary.xMax),
             0.0f,
-            Mathf.Clamp(rb.position.z, boundary.zMin, boundary.zMax)
+            Mathf.Clamp(rb.rotation.z, boundary.zMin, boundary.zMax)
         );
 
-        rb.rotation = Quaternion.Euler(0.0f, 0.0f, rb.velocity.x * -tilt);
+     //   rb.rotation = Quaternion.Euler(0.0f, 0.0f, rb.velocity.x * -tilt);
     }
 }
