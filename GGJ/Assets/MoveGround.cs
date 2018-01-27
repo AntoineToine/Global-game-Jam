@@ -2,18 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RandSpawn : MonoBehaviour {
-
-    public Vector3 PointB;
-    public Vector3 PointA;
+public class MoveGround : MonoBehaviour {
+    public Vector3 pointB;
+    public Vector3 pointA;
 
     IEnumerator Start()
     {
-        Vector3 pointA = transform.position;
         while (true)
         {
-            yield return StartCoroutine(MoveObject(transform, PointA, PointB, 3));
-            yield return StartCoroutine(MoveObject(transform, PointB, PointA, 3));
+            yield return StartCoroutine(MoveObject(transform, pointA, pointB, 3));
+            yield return StartCoroutine(MoveObject(transform, pointB, pointA, 3));
         }
     }
 
