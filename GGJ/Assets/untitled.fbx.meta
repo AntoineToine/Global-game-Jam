@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 1826e18e2a8a9f74282000e3676903ed
-timeCreated: 1517002418
+guid: dc9979f45903aaf46aa182a126756143
+timeCreated: 1517015718
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -8,38 +8,36 @@ ModelImporter:
     100000: Circle
     100002: Cone
     100004: Sphere
-    100006: Torus_000
-    100008: Torus_002
-    100010: Torus_004
+    100006: Torus.000
+    100008: Torus.002
+    100010: Torus.004
     100012: //RootNode
     400000: Circle
     400002: Cone
     400004: Sphere
-    400006: Torus_000
-    400008: Torus_002
-    400010: Torus_004
+    400006: Torus.000
+    400008: Torus.002
+    400010: Torus.004
     400012: //RootNode
-    2100000: unnamed
+    2100000: No Name
     2300000: Circle
     2300002: Cone
     2300004: Sphere
-    2300006: Torus_000
-    2300008: Torus_002
-    2300010: Torus_004
+    2300006: Torus.000
+    2300008: Torus.002
+    2300010: Torus.004
     3300000: Circle
     3300002: Cone
     3300004: Sphere
-    3300006: Torus_000
-    3300008: Torus_002
-    3300010: Torus_004
+    3300006: Torus.000
+    3300008: Torus.002
+    3300010: Torus.004
     4300000: Cone
-    4300002: Torus_000
-    4300004: Torus_004
-    4300006: Torus_002
+    4300002: Torus.000
+    4300004: Torus.004
+    4300006: Torus.002
     4300008: Circle
     4300010: Sphere
-    7400000: Default Take
-    9500000: //RootNode
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -114,7 +112,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
