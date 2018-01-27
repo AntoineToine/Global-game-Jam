@@ -28,6 +28,12 @@ ModelImporter:
     100040: Piste4
     100042: piste5
     100044: //RootNode
+    100046: Circle
+    100048: Cone
+    100050: Sphere
+    100052: Torus.000
+    100054: Torus.002
+    100056: Torus.004
     400000: Bordure1-1
     400002: Bordure1-2
     400004: Bordure1-3
@@ -51,6 +57,12 @@ ModelImporter:
     400040: Piste4
     400042: piste5
     400044: //RootNode
+    400046: Circle
+    400048: Cone
+    400050: Sphere
+    400052: Torus.000
+    400054: Torus.002
+    400056: Torus.004
     2100000: Material.004
     2100002: Material.006
     2100004: Material.005
@@ -73,6 +85,9 @@ ModelImporter:
     2100038: Material.031
     2100040: Material.032
     2100042: Material.033
+    2100044: Material.003
+    2100046: No Name
+    2100048: Material.002
     2300000: Bordure1-1
     2300002: Bordure1-2
     2300004: Bordure1-3
@@ -95,6 +110,12 @@ ModelImporter:
     2300038: Piste3
     2300040: Piste4
     2300042: piste5
+    2300044: Circle
+    2300046: Cone
+    2300048: Sphere
+    2300050: Torus.000
+    2300052: Torus.002
+    2300054: Torus.004
     3300000: Bordure1-1
     3300002: Bordure1-2
     3300004: Bordure1-3
@@ -117,6 +138,12 @@ ModelImporter:
     3300038: Piste3
     3300040: Piste4
     3300042: piste5
+    3300044: Circle
+    3300046: Cone
+    3300048: Sphere
+    3300050: Torus.000
+    3300052: Torus.002
+    3300054: Torus.004
     4300000: Piste2
     4300002: Cube3
     4300004: Cube4
@@ -139,6 +166,12 @@ ModelImporter:
     4300038: Bordure2-4
     4300040: Bordure2-5
     4300042: Bordure2-6
+    4300044: Cone
+    4300046: Torus.000
+    4300048: Torus.004
+    4300050: Torus.002
+    4300052: Circle
+    4300054: Sphere
   externalObjects: {}
   materials:
     importMaterials: 1

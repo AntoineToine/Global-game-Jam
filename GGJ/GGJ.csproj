@@ -290,6 +290,7 @@
   <ItemGroup>
     <Compile Include="Assets\Script\CameraController.cs" />
     <Compile Include="Assets\Script\main_menu.cs" />
+    <Compile Include="Assets\Script\main_pause.cs" />
     <Compile Include="Assets\Script\MoveForward.cs" />
     <Compile Include="Assets\Script\MoveGround.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
