@@ -13,8 +13,23 @@ public class RandSpawn : MonoBehaviour {
         transform.position = positions;
     }
 
-    void update()
+    void OnTriggerEnter(Collider other)
     {
-        
+        if (other.tag == "Player")
+        {
+            int randomNumber = Random.Range(-8, 8);
+            positions.x = randomNumber;
+            positions.z = 529;
+            transform.position = positions;
+ //           gameController.GameOver();
+        }
+        if (other.tag == "Wall")
+        {
+            int randomNumber = Random.Range(-8, 8);
+            positions.x = randomNumber;
+            positions.z = 529;
+            transform.position = positions;
+//            gameController.GameOver();
+        }
     }
 }
