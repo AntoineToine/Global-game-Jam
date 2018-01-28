@@ -4,32 +4,34 @@ using UnityEngine;
 
 public class RandSpawn : MonoBehaviour {
 
-    public Vector3 positions;
+    public Vector3[] positions;
+    public GameController gameController;
 
     void Start()
     {
-        int randomNumber = Random.Range(-8, 8);
-        positions.x = randomNumber;
-        transform.position = positions;
+        GameObject gameControllerObject = GameObject.FindWithTag("GameController");
+        if (gameControllerObject != null)
+        {
+            gameController = gameControllerObject.GetComponent<GameController>();
+        }
+        if (gameController == null)
+        {
+            Debug.Log("Cannot find 'GameController' script");
+        }
+        int randomNumber = Random.Range(0, positions.Length);
+        transform.position = positions[randomNumber];
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
         {
-            int randomNumber = Random.Range(-8, 8);
-            positions.x = randomNumber;
-            positions.z = 529;
-            transform.position = positions;
- //           gameController.GameOver();
+            gameController.GameOver();
         }
         if (other.tag == "Wall")
         {
-            int randomNumber = Random.Range(-8, 8);
-            positions.x = randomNumber;
-            positions.z = 529;
-            transform.position = positions;
-//            gameController.GameOver();
+            int randomNumber = Random.Range(0, positions.Length);
+            transform.position = positions[randomNumber];
         }
     }
 }
