@@ -8,6 +8,14 @@ public class main_pause : MonoBehaviour {
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            //SceneManager.LoadScene("GGJ game");
+        }
+    }
     public void Quitgame()
     {
         Application.Quit();

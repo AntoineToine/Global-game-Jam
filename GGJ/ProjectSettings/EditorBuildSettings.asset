@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GGJ game.unity
     guid: 73654b9fce96da941b9c7b6ffd6a7b35
-  - enabled: 1
+  - enabled: 0
     path: Assets/pause.unity
     guid: 28f46d6427fb6624bac42bad411f89be
+  - enabled: 1
+    path: Assets/over.unity
+    guid: 384299e4bd6dbc546b5b1b30c3b9e001

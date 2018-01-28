@@ -329,9 +329,11 @@
     <Compile Include="Assets\Script\MenuPause.cs" />
     <Compile Include="Assets\Script\MoveForward.cs" />
     <Compile Include="Assets\Script\MoveGround.cs" />
+    <Compile Include="Assets\Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
     <Compile Include="Assets\Script\RandSpawn.cs" />
     <Compile Include="Assets\Script\ScoreManager.cs" />
+    <Compile Include="Assets\sons\sound.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
