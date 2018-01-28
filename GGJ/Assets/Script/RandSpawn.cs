@@ -1,23 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RandSpawn : MonoBehaviour {
-
     public Vector3[] positions;
-    public GameController gameController;
+    public GameObject canvas;
+    public GameObject scoreCanvas;
 
     void Start()
     {
-        GameObject gameControllerObject = GameObject.FindWithTag("GameController");
-        if (gameControllerObject != null)
-        {
-            gameController = gameControllerObject.GetComponent<GameController>();
-        }
-        if (gameController == null)
-        {
-            Debug.Log("Cannot find 'GameController' script");
-        }
         int randomNumber = Random.Range(0, positions.Length);
         transform.position = positions[randomNumber];
     }
@@ -26,7 +18,11 @@ public class RandSpawn : MonoBehaviour {
     {
         if (other.tag == "Player")
         {
-            gameController.GameOver();
+            canvas.SetActive(true);
+            //Destroy(gameObject); Debug.log
+            scoreCanvas.SetActive(false);
+            Destroy(other.gameObject);
+            Time.timeScale = 0f;
         }
         if (other.tag == "Wall")
         {

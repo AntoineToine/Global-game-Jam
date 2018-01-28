@@ -8,10 +8,6 @@ public class MenuPause : MonoBehaviour {
     private bool isPaused = false;
     public GameObject canvas;
     public GameObject scoreCanvas;
-	// Use this for initialization
-	void Start () {
-		
-	}
 	
 	// Update is called once per frame
 	void Update () {

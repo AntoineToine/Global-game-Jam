@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 0c5292298c8063a4c8668e342ccbee5b
+timeCreated: 1517072257
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bordure1-1
+    100002: Bordure1-2
+    100004: Bordure1-3
+    100006: Bordure1-4
+    100008: Bordure1-5
+    100010: Bordure1-6
+    100012: Bordure2-1
+    100014: Bordure2-2
+    100016: Bordure2-3
+    100018: Bordure2-4
+    100020: Bordure2-5
+    100022: Bordure2-6
+    100024: Cube1
+    100026: Cube2
+    100028: Cube3
+    100030: Cube4
+    100032: Fond_noir
+    100034: Piste1
+    100036: Piste2
+    100038: Piste3
+    100040: Piste4
+    100042: piste5
+    100044: //RootNode
+    100046: Circle
+    100048: Cone
+    100050: Sphere
+    100052: Torus.000
+    100054: Torus.002
+    100056: Torus.004
+    400000: Bordure1-1
+    400002: Bordure1-2
+    400004: Bordure1-3
+    400006: Bordure1-4
+    400008: Bordure1-5
+    400010: Bordure1-6
+    400012: Bordure2-1
+    400014: Bordure2-2
+    400016: Bordure2-3
+    400018: Bordure2-4
+    400020: Bordure2-5
+    400022: Bordure2-6
+    400024: Cube1
+    400026: Cube2
+    400028: Cube3
+    400030: Cube4
+    400032: Fond_noir
+    400034: Piste1
+    400036: Piste2
+    400038: Piste3
+    400040: Piste4
+    400042: piste5
+    400044: //RootNode
+    400046: Circle
+    400048: Cone
+    400050: Sphere
+    400052: Torus.000
+    400054: Torus.002
+    400056: Torus.004
+    2100000: Material.004
+    2100002: Material.006
+    2100004: Material.005
+    2100006: Material.008
+    2100008: Material.009
+    2100010: Material.010
+    2100012: Material.012
+    2100014: Material.013
+    2100016: Material.014
+    2100018: Material.015
+    2100020: Material.019
+    2100022: Material.020
+    2100024: Material.022
+    2100026: Material.025
+    2100028: Material.026
+    2100030: Material.027
+    2100032: Material.028
+    2100034: Material.029
+    2100036: Material.030
+    2100038: Material.031
+    2100040: Material.032
+    2100042: Material.033
+    2100044: Material.003
+    2100046: No Name
+    2100048: Material.002
+    2300000: Bordure1-1
+    2300002: Bordure1-2
+    2300004: Bordure1-3
+    2300006: Bordure1-4
+    2300008: Bordure1-5
+    2300010: Bordure1-6
+    2300012: Bordure2-1
+    2300014: Bordure2-2
+    2300016: Bordure2-3
+    2300018: Bordure2-4
+    2300020: Bordure2-5
+    2300022: Bordure2-6
+    2300024: Cube1
+    2300026: Cube2
+    2300028: Cube3
+    2300030: Cube4
+    2300032: Fond_noir
+    2300034: Piste1
+    2300036: Piste2
+    2300038: Piste3
+    2300040: Piste4
+    2300042: piste5
+    2300044: Circle
+    2300046: Cone
+    2300048: Sphere
+    2300050: Torus.000
+    2300052: Torus.002
+    2300054: Torus.004
+    3300000: Bordure1-1
+    3300002: Bordure1-2
+    3300004: Bordure1-3
+    3300006: Bordure1-4
+    3300008: Bordure1-5
+    3300010: Bordure1-6
+    3300012: Bordure2-1
+    3300014: Bordure2-2
+    3300016: Bordure2-3
+    3300018: Bordure2-4
+    3300020: Bordure2-5
+    3300022: Bordure2-6
+    3300024: Cube1
+    3300026: Cube2
+    3300028: Cube3
+    3300030: Cube4
+    3300032: Fond_noir
+    3300034: Piste1
+    3300036: Piste2
+    3300038: Piste3
+    3300040: Piste4
+    3300042: piste5
+    3300044: Circle
+    3300046: Cone
+    3300048: Sphere
+    3300050: Torus.000
+    3300052: Torus.002
+    3300054: Torus.004
+    4300000: Piste2
+    4300002: Cube3
+    4300004: Cube4
+    4300006: Cube2
+    4300008: Cube1
+    4300010: Fond_noir
+    4300012: Piste3
+    4300014: Piste4
+    4300016: piste5
+    4300018: Piste1
+    4300020: Bordure1-1
+    4300022: Bordure1-3
+    4300024: Bordure1-2
+    4300026: Bordure1-4
+    4300028: Bordure1-5
+    4300030: Bordure1-6
+    4300032: Bordure2-1
+    4300034: Bordure2-2
+    4300036: Bordure2-3
+    4300038: Bordure2-4
+    4300040: Bordure2-5
+    4300042: Bordure2-6
+    4300044: Cone
+    4300046: Torus.000
+    4300048: Torus.004
+    4300050: Torus.002
+    4300052: Circle
+    4300054: Sphere
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

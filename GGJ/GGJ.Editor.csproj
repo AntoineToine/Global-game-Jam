@@ -259,6 +259,24 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="PKFx-Helper">
+      <HintPath>Assets/PopcornFX/Scripts/PKFx-Helper.dll</HintPath>
+    </Reference>
+    <Reference Include="PKFx-Runtime">
+      <HintPath>Assets/PopcornFX/Scripts/PKFx-Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PKFxManager">
+      <HintPath>Assets/PopcornFX/Scripts/PKFxManager.dll</HintPath>
+    </Reference>
+    <Reference Include="PKFx-Editor">
+      <HintPath>Assets/PopcornFX/Scripts/Editor/PKFx-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+      <HintPath>Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/$6MT000-19CGS01D9D02/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
@@ -288,21 +306,53 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\InControl\Editor\InControlBuilder.cs" />
-    <Compile Include="Assets\InControl\Editor\InControlManagerEditor.cs" />
-    <Compile Include="Assets\InControl\Editor\InputManagerAssetGenerator.cs" />
-    <Compile Include="Assets\InControl\Editor\ProfileListGenerator.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\GenericListAdaptor.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\GUIHelper.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\Internal\ReorderableListResources.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\IReorderableListAdaptor.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListControl.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListFlags.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\ReorderableListGUI.cs" />
-    <Compile Include="Assets\InControl\Editor\ReorderableList\SerializedPropertyAdaptor.cs" />
+    <Compile Include="Assets\LightningBolt\Editor\LightningBoltEditor.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\EffectControllerInspector.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\EffectToolBar.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\RenderEffectInspector.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\ShaderCustomEditor\ShaderMaterialsEditor.cs" />
+    <Compile Include="Assets\Particlecollection_Free samples\Plugins\Effect\Editor\XUIUtils.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\InControl\README\README.txt" />
+    <None Include="Assets\DiscoveryPack_Demo\_README_FIRST.txt" />
+    <None Include="Assets\FullTiltBoogie\Helpers\readme.txt" />
+    <None Include="Assets\LightningBolt\Readme.txt" />
+    <None Include="Assets\Particle Attractor by Moonflower Carnivore\Particle Attractor documentation.txt" />
+    <None Include="Assets\Particle Attractor by Moonflower Carnivore\Shaders\Particles Additive Intensify.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleAddSoftEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticleBlendEffect.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\ParticlePremultiplyBlend.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Additive.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\Toon Blended Premmultiply.shader" />
+    <None Include="Assets\Particlecollection_Free samples\Plugins\Effect\Shader\effect_distortion_mask.shader" />
+    <None Include="Assets\Particlecollection_Free samples\READ ME.txt" />
+    <None Include="Assets\PopcornFX\README.txt" />
+    <None Include="Assets\PopcornFX\Resources\PKFxDepthCopyToColor.shader" />
+    <None Include="Assets\PopcornFX\Resources\PKFxDistQuickDirtyBlurEffect.shader" />
+    <None Include="Assets\PopcornFX\Resources\PKFxDistortionEffect.shader" />
+    <None Include="Assets\PopcornFX\Resources\PkFxDepthCopy.shader" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Bangers - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\NotoSans - License.txt" />
+    <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald Bold - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\Ultra Emissive Particles Shader\Shaders\ParticleEmmissive.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
